@@ -1,0 +1,6 @@
+------------------------------------- Deleting Rows with missing values ------------------------------------
+
+Step 1: Select whole data
+Step 2: Click "Find & Select" in the "Home" Tab
+Step 3: Click "Go to Special" in the "Find & Select" Dropdown and choose "Blanks"
+Step 4: Click "Delete" in "Home" tab and then click "Delete Sheet Rows"
