@@ -4,3 +4,41 @@ Step 1: Select whole data
 Step 2: Click "Find & Select" in the "Home" Tab
 Step 3: Click "Go to Special" in the "Find & Select" Dropdown and choose "Blanks"
 Step 4: Click "Delete" in "Home" tab and then click "Delete Sheet Rows"
+
+------------------------------------- Filling missing values with any value e.g "0" ------------------------------------
+
+Step 1: Select whole data
+Step 2: Click "Find & Select" in the "Home" Tab
+Step 3: Click "Go to Special" in the "Find & Select" Dropdown and choose "Blanks"
+Step 4: write 0 in blank cell and then press Ctrl+Enter to auto fill 0 in all other missing cells
+
+OR
+
+Step 1: Select whole data
+Step 2: Click "Find & Select" in the "Home" Tab
+Step 3: Click "Replace"
+Step 4: Write value in "Replace with" and leave "Find" empty
+
+------------------------------------- Filling missing values using Formulas ------------------------------------
+
+1) By Average of value above and below the missing value
+
+  Step 1: Select whole data
+  Step 2: Click "Find & Select" in the "Home" Tab
+  Step 3: Click "Go to Special" in the "Find & Select" Dropdown and choose "Blanks"
+  Step 4: write formula "=AVERAGE(CELL_ABOVE, CELL_BELOW)" in blank cell and then press Ctrl+Enter to auto fill average value in all other missing cells
+  
+2) By Carrying forward the value above missing cell
+  
+  Step 1: Select whole data
+  Step 2: Click "Find & Select" in the "Home" Tab
+  Step 3: Click "Go to Special" in the "Find & Select" Dropdown and choose "Blanks"
+  Step 4: Write the value of above cell e.g "=F3" and then press Ctrl+Enter to auto fill the above value in all other missing cells
+  
+  
+  
+  
+  
+  
+
+  
