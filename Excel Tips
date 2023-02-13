@@ -47,8 +47,36 @@ Step 4: Write value in "Replace with" and leave "Find" empty
             EXAMPLE :  =VLOOPUP(F2,A1:D17,4,FALSE)
             
    NOTE: THE KEYWORD COLUMN MUST BE TO THE LEFT OF THE DESIRED RESULT
-  
-  
+   
+   
+------------------------------------- HLOOKUP Function ------------------------------------
+     
+     HLOOKUP (Horizontal Lookup) is an Excel function to lookup and which retrieves data from a specific row in a table. It searches for a value in the table's first row and returns
+     another value in the same column from a row according to the given condition.
+     
+     It is similar to VLOOKUP but it is used when data is in horizontal table. Same Syntax
+     FORMULA:
+              =HLOOKUP(KEYWORD_CELL,RANGE_OF_DATA,COLUMN_INDEX_OF_DATA_IN_RANGE,FALSE)
+              
+
+ ------------------------------------- XLOOKUP Function ------------------------------------
+       
+     It can look up both vertically and horizontally and perform an exact match (default), approximate (closest) match, or wildcard (partial) match
+     Regardless of which side the return column is on. NO NEED FOR KEYWORD TO BE ON THE LEFT SIDE
+     FORMULA:
+              =XLOOKUP(KEYWORD_CELL,ARRAY_OF_ALL_KEYWORDS,ARRAY_OF_ALL_RESULTS)
+              =XLOOKUP(J4,C2:C20,F2:F20)
+              
+              
+    ------------------------------------- XLOOKUP Function ------------------------------------    
+       
+       
+       
+       
+       
+       
+       
+       
   
 
   
