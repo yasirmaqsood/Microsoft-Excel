@@ -68,11 +68,26 @@ Step 4: Write value in "Replace with" and leave "Find" empty
               =XLOOKUP(J4,C2:C20,F2:F20)
               
               
-    ------------------------------------- XLOOKUP Function ------------------------------------    
+    ------------------------------------- COMBINING CELL VALUES ------------------------------------    
        
+      1) AMPERSAND
+                    =C3&"--"&D3
+                    
+      2) CONCATENATE / CONCAT
+                    =CONCATENATE(O3:O21,"--",F3:F21)
+                    
+ 
+     ------------------------------------- "LEN" FUNCTION ------------------------------------    
        
-       
-       
+    LEN returns the length of text as a number.
+    LEN works with numbers, but number formatting is not included.
+    LEN returns zero if a value is empty.
+    
+    FORMULA:
+            =LEN(C2)
+            =LEN("HELLO")
+            
+            
        
        
        
