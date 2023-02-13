@@ -92,11 +92,23 @@ Step 4: Write value in "Replace with" and leave "Find" empty
        
        The SUMIFS function calculates the sum of a range based on one or more true or false condition. 
        
+       SYNTAX:
+                SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)
+       
        FORMULA:
                 =SUMIFS(ARRAY/COLUMN_OF_INTEGERS_TO_BE_SUMMED, ARRAY/COLUMN_OF_KEYWORDS, KEYWORD_CELL)
                 =SUMIFS(F2:F20,B2:B20,R3)
+                =SUMIFS(S12:S20, T12:T20, "=B*", R12:R20, "To?")
                 
+       Using wildcard characters like the question mark (?) and asterisk (*) in criteria1,2 can help you find matches that are similar but not exact.
+       A question mark matches any single character. An asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, 
+       type a tilde (~) in front of the question mark.
                 
+       Difference between SUMIF and SUMIFS.
+                                            The order of arguments differ between SUMIFS and SUMIF. In particular, the sum_range argument is the first argument
+                                            in SUMIFS, but it is the third argument in SUMIF. This is a common source of problems using these functions.
+                
+       NOTE: The Criteria_range argument must contain the same number of rows and columns as the Sum_range argument.         
                 
                 
                 
