@@ -88,9 +88,9 @@ Step 4: Write value in "Replace with" and leave "Find" empty
             =LEN("HELLO")
             
             
+      ------------------------------------- "SUMIFS" FUNCTION ------------------------------------          
        
-       
-       
+       The SUMIFS function calculates the sum of a range based on one or more true or false condition. 
        
   
 
