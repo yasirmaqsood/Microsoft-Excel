@@ -92,6 +92,29 @@ Step 4: Write value in "Replace with" and leave "Find" empty
        
        The SUMIFS function calculates the sum of a range based on one or more true or false condition. 
        
+       FORMULA:
+                =SUMIFS(ARRAY/COLUMN_OF_INTEGERS_TO_BE_SUMMED, ARRAY/COLUMN_OF_KEYWORDS, KEYWORD_CELL)
+                =SUMIFS(F2:F20,B2:B20,R3)
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
   
 
   
