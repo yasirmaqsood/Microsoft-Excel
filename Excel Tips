@@ -35,8 +35,18 @@ Step 4: Write value in "Replace with" and leave "Find" empty
   Step 3: Click "Go to Special" in the "Find & Select" Dropdown and choose "Blanks"
   Step 4: Write the value of above cell e.g "=F3" and then press Ctrl+Enter to auto fill the above value in all other missing cells
   
+  ------------------------------------- VLOOKUP Function ------------------------------------
   
+  VLOOKUP stands for 'Vertical Lookup'. It is a function that makes Excel search for a certain value in a column (the so called 'table array'), in order to return
+  a value from a different column in the same row.
   
+  If we want to search a value against some keyword. For example we want to search a price of a particular product
+  
+  FORMULA:
+            =VLOOKUP(KEYWORD_CELL,RANGE_OF_DATA,COLUMN_INDEX_OF_DATA_IN_RANGE,FALSE)
+            EXAMPLE :  =VLOOPUP(F2,A1:D17,4,FALSE)
+            
+   NOTE: THE KEYWORD COLUMN MUST BE TO THE LEFT OF THE DESIRED RESULT
   
   
   
