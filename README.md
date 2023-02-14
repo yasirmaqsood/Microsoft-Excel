@@ -4,7 +4,7 @@ This is a self practiced microsoft excel repository
 
 In this repository, essential functions used in data analysis are practiced
 
-## The Topics covered are:
+## The Data Analysis Functions covered are:
 
 * VLOOKUP
 
