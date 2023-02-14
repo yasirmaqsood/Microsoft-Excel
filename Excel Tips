@@ -118,14 +118,26 @@ Step 4: Write value in "Replace with" and leave "Find" empty
   Function to trap and handle errors in a formula. IFERROR returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the 
   formula.       
   
+  The following error types are evaluated: #N/A, #VALUE!, #REF!, #DIV/0!, #NUM!, #NAME?, or #NULL!.
+  
+  For example, if we divide 8 by 0, it gives an error, so we can handle this by specifying any value
+  Formula:
+            =IFERROR(8/0,0)
+            =IFERROR(C3,0)
                 
                 
+          ------------------------------------- "SUBSTITUTE" & "REPLACE" FUNCTION ------------------------------------                   
                 
+  --> Substitutes new_text for old_text in a text string
+  --> Use SUBSTITUTE when you want to replace specific text in a text string;
+  --> Use REPLACE when you want to replace any text that occurs in a specific location in a text string.
+  
+   SUBSTITUTE SYNTAX:
+                      =SUBSTITUTE(text, old_text, new_text, [instance_num (optional)])    #If you specify instance_num, only that instance of old_text is replaced 
+                      (means if the instance_num is 3, replace the value occuring third time). Otherwise, every occurrence of old_text in text is changed to new_text.
                 
-                
-                
-                
-                
+   REPLACE SYNTAX:
+                     REPLACE(old_text, index_number, how_many_characters_to_replace, new_text)
                 
                 
                 
