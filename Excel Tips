@@ -140,7 +140,53 @@ Step 4: Write value in "Replace with" and leave "Find" empty
                      REPLACE(old_text, index_number, how_many_characters_to_replace, new_text)
                 
                 
-            ------------------------------------- "MINIFS" & "MAXIFS" & "AVERAGEIFS" FUNCTION ------------------------------------                
+            ------------------------------------- "MINIFS" & "MAXIFS" & "AVERAGEIFS" FUNCTION ------------------------------------    
+            
+some of these functions are only available in excel 2019 or 365
   
+MINIFS:
+        Used to find a minimum value out of multiple values of a same category. For Example, if a same mobile is sold for different prices, this function will tell
+        the minimum price that it is sold for
+        
+MAXIFS:
+        Used to find a maximum value out of multiple values of a same category. For Example, if a same mobile is sold for different prices, this function will tell
+        the maximum price that it is sold for
+        
+AVERAGEIFS:
+        Used to find a average value out of multiple values of a same category. For Example, if a same mobile is sold for different prices, this function will tell
+        the average price that it is sold for       
+        
+FORMULA:
+        =MINIFS(Column_to_find_min_from, Category_column, Criteria)
+        =MAXIFS(Column_to_find_max_from, Category_column, Criteria)
+        =AVERAGEIFS(Column_to_find_average_of, Category_column, Criteria)
+        
+        
+            ------------------------------------- "COUNTIFS" FUNCTION ------------------------------------            
+        
+ This is used to find total count of occurance of a particular category
+ 
+ FORMULA:
+          =COUNTIFS(Criteria_range, Criteria)
+     
+        
+            ------------------------------------- "LEFT" & "RIGHT" FUNCTION ------------------------------------       
+            
+LEFT function helps to get a specified number of characters from a text from the left side.     
 
+      =LEFT(text, number_of_characters)
+
+RIGHT function helps to get a specified number of characters from a text from the right side.  
+            
+        =RIGHT(text, number_of_characters)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
   
