@@ -112,10 +112,12 @@ Step 4: Write value in "Replace with" and leave "Find" empty
                 
                 
                 
+          ------------------------------------- "IFERROR" FUNCTION ------------------------------------                  
                 
                 
-                
-                
+  Function to trap and handle errors in a formula. IFERROR returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the 
+  formula.       
+  
                 
                 
                 
